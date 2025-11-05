@@ -20,6 +20,9 @@ aside img{
 main img{
     width: 150px;
     height: auto;
+    border: 1px black;
+    padding: 50px;
+    box-shadow: 20px;
 }
 
 nav{
