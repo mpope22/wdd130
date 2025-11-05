@@ -22,7 +22,7 @@ main img{
     height: auto;
     border: 1px black;
     padding: 50px;
-    box-shadow: 20px;
+    box-shadow: 0 0 20px #333;
 }
 
 nav{
