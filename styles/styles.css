@@ -27,10 +27,10 @@ aside{
     position: relative;
 }
 
-aside img{
+/*aside img{
     width: 200px;
     height: auto;
-}
+}*/
 
 main img{
     width: 150px;
@@ -56,8 +56,8 @@ h1{
     color: darkblue;
 }
 
-img{
-    width: 150px;
+aside img{
+    width: 200px;
     height: auto;
     border: 1px solid black;
     padding: 2px;
