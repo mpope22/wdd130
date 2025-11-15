@@ -31,6 +31,8 @@ h1, h2{
 
 nav, p, section, article{
     position: relative;
+    color: var(--secondary-color)
+    width: 100%;
     margin: 16px;
     padding: 8px;
 }
