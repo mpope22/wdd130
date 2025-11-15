@@ -59,7 +59,7 @@ nav, p, section, article{
 }
 
 .hero article{
-    position: absolute;
+    position: relative;
     background-color: var(--accent2-color);
 }
 
