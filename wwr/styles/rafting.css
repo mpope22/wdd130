@@ -21,7 +21,6 @@ body{
 header, main, footer{
     width: 840px;
     margin: 0 auto;
-    color: var(--secondary-color);
 }
 
 h1, h2{
@@ -56,7 +55,7 @@ nav, p, section, article{
     text-align: center;
     opacity: .7;
     background-color: var(--accent1-color);
-    color: black;
+    color: var(--secondary-color);
 }
 
 .hero article{
