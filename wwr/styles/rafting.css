@@ -24,11 +24,13 @@ header, main, footer{
 }
 
 h1, h2{
+    position: relative;
     font-family: var(--heading-font);
     color: var(--primary-color);
 }
 
 nav, p, section, article{
+    position: relative;
     margin: 16px;
     padding: 8px;
 }
@@ -59,7 +61,11 @@ nav, p, section, article{
 }
 
 .hero article{
-    position: relative;
+    top: 400px;
+    width: 95%;
+    padding: 13px;
+    text-align: left;
+    position: absolute;
     background-color: var(--accent2-color);
 }
 
