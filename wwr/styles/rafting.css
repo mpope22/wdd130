@@ -213,3 +213,23 @@ iframe{
     margin-top: 20px;
     border: 0;
 }
+
+.employees h1{
+    display: grid;
+    text-align: center;
+}
+
+.employee-profiles {
+  display: grid;
+  grid-template-columns: 200px 300px 300px;
+  gap: 60px;
+}
+
+.employee-card {
+    text-align: center;
+}
+
+.employee-card img {
+    max-width: 100%;
+    height: auto;
+}
