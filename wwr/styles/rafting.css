@@ -204,6 +204,8 @@ iframe{
     justify-content: left;
     flex-wrap: wrap;
     flex-direction: column;
+    width: 300;
+    height: 225;
     padding: 10px;
     margin-left: 40px;
     margin-top: 20px;
