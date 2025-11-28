@@ -157,3 +157,59 @@ header nav{
     width: 100%;
     height: auto;
 }
+
+.info h1{
+    text-align: center;
+}
+
+.info h2{
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+}
+
+.customer-info{
+    display: flex;
+    justify-content: right;
+    padding: 15px;
+    position: relative;
+}
+
+.info{
+    width: 80%;
+    text-align: right;
+}
+
+.form-row{
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.form-label{
+    margin: 27px;
+}
+
+.radio-group{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.radio-option{
+    flex-wrap: wrap;
+    padding: 4px 0;
+}
+
+iframe{
+    position: absolute;
+    display: flex;
+    justify-content: left;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding: 10px;
+    margin-left: 40px;
+    margin-top: 20px;
+    border: 0;
+}
