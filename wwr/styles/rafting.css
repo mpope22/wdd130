@@ -1,7 +1,7 @@
 :root{
     --primary-color: #055a05;
     --secondary-color: #f4a261;
-    --accent1-color: #264653;
+    --accent1-color: lightgrey;
     --accent2-color: #e9c46a;
     --heading-font: "Times New Roman", "Georgia", serif;
     --body-font: Arial, Helvetica, sans-serif;
@@ -93,6 +93,10 @@ footer img{
     float: right;
     justify-content: space-around;
     margin: 5px;
+}
+
+footer p{
+    color: black;
 }
 
 header img{
@@ -230,4 +234,77 @@ iframe{
 .employee-card img {
     max-width: 100%;
     height: auto;
+}
+
+.subscribe{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 5px;
+    text-align: right;
+    max-width: 300px;
+    margin-left: auto;
+    margin-right: 300px;
+    padding: 20px;
+    border-radius: 8px;
+    transform: translateY(-425px);
+    background-color: lightgray;
+    opacity: 0.8;
+}
+
+.subscribe button{
+    margin-left: auto;
+}
+
+.subscribe p{
+    color: black;
+    font-weight: bold;
+}
+
+.subscribe label{
+    color: black;
+}
+
+.booking{
+    display: grid;
+    grid-template-columns: 1fr auto;
+}
+
+.booking a{
+    display: block;
+    justify-self: center;
+    font-size: 1rem;
+    padding: 10px 20px;
+    margin-top: -50px;
+}
+
+.format{
+    margin-top: -150px;
+    color: var(--primary-color);
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    background-color: var(--accent1-color);
+}
+
+.format figure {
+    display: flex;
+    flex-direction: column;
+    margin: 50px;
+    max-width: 300px;
+}
+
+.format img{
+    max-width: 100%;
+    height: auto;
+    display: block; 
+}
+
+.format figcaption {
+    text-align: center;
+    padding-top: 10px; 
+}
+
+.location h2{
+    margin-top: -125px;
+    margin-bottom: 110px;
 }
