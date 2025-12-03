@@ -46,6 +46,7 @@ nav, p, section, article{
     padding: 8px;
     justify-content: space-between;
     text-wrap: wrap;
+    color: black;
 }
 
 .socialmedia a{
@@ -173,6 +174,7 @@ header nav{
     justify-content: right;
     padding: 15px;
     position: relative;
+    color: black;
 }
 
 .info{
@@ -269,7 +271,7 @@ iframe{
     grid-template-columns: 1fr auto;
 }
 
-.booking a{
+.booking button{
     display: block;
     justify-self: center;
     font-size: 1rem;
