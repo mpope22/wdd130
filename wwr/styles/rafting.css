@@ -310,3 +310,81 @@ iframe{
     margin-top: -125px;
     margin-bottom: 110px;
 }
+
+.vacation{
+    width: 100%;
+    display: flex;
+    background-color: gray;
+    align-items: center;
+    padding: 10px;
+    gap: 20px;
+}
+
+.vacation p{
+    margin-right: 0;
+    flex-grow: 1;
+}
+
+.vacation img{
+    margin-left: 0;
+    margin-right: auto;
+    width: 400px;
+    height: auto;
+}
+
+.vacation button{
+    width: 150px;
+    height: 50px;
+    align-self: flex-end;
+}
+
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.trips{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 20px;
+    padding: 20px;
+}
+
+.trips figure{
+    margin: 0;
+    text-align: center;
+}
+
+.trips img{
+    width: 100%;
+    display: block;
+}
+
+.trips figcaption{
+    padding: 10px 0;
+    font-size: 0.9rem;
+    color: #555;
+}
+
+.river-card{
+    background-color: lightblue;
+    margin: 0;
+    text-align: center;
+}
+
+.river-card figcaption{
+    font-weight: bold;
+    color: black;
+}
+
+.river-card img{
+    width: 100%;
+    display: block;
+}
+
+.river-card li{
+    margin-left: 20px;
+    color: black;
+}
